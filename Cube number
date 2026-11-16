@@ -1,0 +1,3 @@
+n=int(input("Enter the number:"))
+Cube=n**2
+print("Cube number =",Cube)
