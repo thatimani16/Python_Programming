@@ -1,0 +1,9 @@
+def div(n1,n2):
+  if n2==0:
+    return "Error! modulo division not possible"
+  else:
+    div=n1%n2
+    return f"Modulo division two numbers = {div}"
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+print(div(n1,n2))
