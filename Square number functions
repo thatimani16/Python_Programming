@@ -1,0 +1,4 @@
+def square(n):
+  return n**2
+n=int(input("Enter the number:"))
+print("Square number =",square(n))
